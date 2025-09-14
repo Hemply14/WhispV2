@@ -1,0 +1,57 @@
+:root {
+  --primary-color: #5D9CEC;
+  --secondary-color: #4FC1E9;
+  --accent-color: #FFCE54;
+  --bg-color: #F5F7FA;
+  --text-color: #333;
+  --success-color: #4CAF50;
+  --danger-color: #F44336;
+  --font-family: 'Open-Dyslexic', sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--primary-color);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 28px;
+  border-radius: 50px;
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.btn:hover { transform: scale(1.05); }
+
+/* Class to disable animations for Focus Mode */
+.animations-disabled *, .animations-disabled *::before, .animations-disabled *::after {
+  animation-duration: 0s !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0s !important;
+}

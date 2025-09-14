@@ -1,0 +1,11 @@
+.create-journal-page { padding: 2rem 0; }
+.daily-prompt { background: #fff; padding: 1rem; border-radius: 10px; margin-bottom: 1.5rem; text-align: center; }
+.creation-center { background: #fff; padding: 2rem; border-radius: 15px; }
+.text-editor { width: 100%; min-height: 200px; border: 1px solid #ccc; border-radius: 10px; padding: 1rem; font-family: inherit; font-size: 1.2rem; margin-bottom: 1rem; }
+.tool-buttons { display: flex; gap: 1rem; margin-bottom: 1rem; }
+.mic-btn, .draw-btn { padding: 10px 20px; border-radius: 50px; border: none; cursor: pointer; font-size: 1rem; display: flex; align-items: center; gap: 8px; }
+.mic-btn { background-color: var(--secondary-color); color: #fff; }
+.mic-btn.listening { background-color: var(--danger-color); }
+.draw-btn { background-color: var(--primary-color); color: #fff; }
+.drawing-canvas-placeholder { border: 2px dashed #ccc; border-radius: 10px; min-height: 200px; display: flex; justify-content: center; align-items: center; color: #999; margin-bottom: 1.5rem; }
+.save-btn { width: 100%; }
